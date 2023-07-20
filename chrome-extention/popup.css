@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f1f5f9;
+    border: 1px solid rgb(189, 185, 185);
+
+}
+
+.pop-box {
+    width: 270px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.pop-box h3 {
+    font-size: 20px;
+
+}
+
+.changeColorBtn {
+    width: 200px;
+    outline: none;
+    margin-top: 5px;
+    background: #15fa47;
+    font-weight: 600;
+    color: rgb(74, 78, 78);
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 8px;
+}
+.selctedColor{
+    display: flex;
+    font-weight: bold;
+    justify-items: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue{
+    margin-left:15px ;
+    font-weight: bold;
+}
